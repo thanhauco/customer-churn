@@ -1,6 +1,3 @@
-from fastapi import FastAPI
-import pickle
-app = FastAPI()
-@app.post('/predict')
-def predict(data: dict):
-    return {'churn': 0}
+from src.monitoring import PRED_DIST
+@app.get('/metrics')
+def metrics(): return PRED_DIST
