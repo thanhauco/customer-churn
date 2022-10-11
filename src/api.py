@@ -1,3 +1,1 @@
-from src.monitoring import PRED_DIST
-@app.get('/metrics')
-def metrics(): return PRED_DIST
+from src.ab import assign_variant
