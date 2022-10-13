@@ -1,4 +1,10 @@
 pandas
 scikit-learn
+matplotlib
+jupyter
 fastapi
 uvicorn
+alibi-detect
+shap
+prometheus-client
+mlflow
