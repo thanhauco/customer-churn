@@ -1,2 +1,9 @@
 # Customer Churn Prediction
-Predict user churn.
+
+## Phase 2 Features
+- Drift Detection
+- API Deployment
+- Monitoring
+- SHAP Explainability
+- MLflow Tracking
+- A/B Testing
