@@ -1,2 +1,1 @@
-def test_api():
-    pass
+def test_missing_key(): pass
